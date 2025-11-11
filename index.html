@@ -1,0 +1,175 @@
+<section class="lehrstuhl-layout">
+
+  <!-- OBERER BEREICH: TEXT LINKS, BILD RECHTS -->
+  <div class="intro-grid">
+    <div class="intro-text">
+      <h1>Lehrstuhl für Kognitive Systeme</h1>
+      <p> Der Lehrstuhl für Sozialpädiatrie an der Technischen Universität München ist der einzige seiner Art in Deutschland. Lehrstuhlinhaber ist Prof. Dr. med. Volker Mall (zum TUM Professoren Profil), der zugleich auch ärztlicher Direktor des kbo Kinderzentrums ist.<p> 
+<p> Zentral für die Sozialpädiatrie als wissenschaftliche Disziplin ist es, neue Erkenntnisse zu Prävention, Behandlung und Rehabilitation zu schaffen und in den klinischen Alltag zu integrieren. Das interdisziplinäre Team vereint Expertise aus Medizin, Psychologie, Pädagogik, Sport- und Gesundheitswissenschaften sowie aus verschiedenen Therapieberufen.<p> 
+<p> Die Forschungsschwerpunkte umfassen die Untersuchung psychosozialer und biologischer Bedingungen bei der Entstehung von Entwicklungsstörungen und psychischen Erkrankungen, die Diagnostik und Therapie von Kindern mit Cerebralparese, mit posttraumatischer Belastungsstörung nach Fluchterfahrung, mit Misshandlungserfahrung, mit frühkindlichen Regulationsproblemen (Schrei-, Schlaf-, und Essstörungen) sowie mit verschiedenen Syndromen und seltenen Erkrankungen.<p> 
+<p> Zudem werden am Lehrstuhl digitale und verzahnte Behandlungsansätze erforscht, um Interventionen niedrigschwellig zu ergänzen und zu erweitern. Darüber hinaus sind am Lehrstuhl Kinderschutzprojekte im Bereich der Frühen Hilfen, die Erforschung früher Eltern-Kind-Beziehungen und deren Bedeutung für die kindliche Entwicklung sowie die Entwicklung und Evaluation von Patientenschulungen für chronisch kranke Kinder und ihre Eltern verankert.<p> 
+
+
+      <!-- Professor-Profil innerhalb des Textbereichs -->
+      <div class="prof-card">
+        <img src="https://via.placeholder.com/140" alt="Prof. Dr. Anna Müller" class="prof-img">
+        <div class="prof-info">
+          <h2>Prof. Dr. Volker Mall</h2>
+          <p>Lehrstuhlinhaberin | Kognitive Systeme</p>
+          <div class="social-links">
+            <a href="mailto:anna.mueller@uni.de" title="E-Mail">✉️</a>
+            <a href="https://www.researchgate.net/profile/Anna-Mueller" title="ResearchGate">🔗</a>
+            <a href="https://scholar.google.com/citations?user=XYZ" title="Google Scholar">🧮</a>
+            <a href="https://www.linkedin.com/in/anna-mueller" title="LinkedIn">💼</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="intro-image">
+      <img src="https://via.placeholder.com/700x500" alt="Teamfoto Lehrstuhl Kognitive Systeme">
+    </div>
+  </div>
+
+  <!-- UNTERER BEREICH: MODULE / FORSCHUNGSGRUPPEN -->
+  <div class="gruppen-grid">
+    <a href="#" class="gruppe">
+      <h3>🧬 Computational Neuroscience</h3>
+      <p>Neuronale Modelle des Lernens und der Wahrnehmung</p>
+    </a>
+    <a href="#" class="gruppe">
+      <h3>🤖 Machine Learning Lab</h3>
+      <p>Supervised und Reinforcement Learning für komplexe Systeme</p>
+    </a>
+    <a href="#" class="gruppe">
+      <h3>🧠 Cognitive Modelling</h3>
+      <p>Kognitive Architektur und Gedächtnismodellierung</p>
+    </a>
+    <a href="#" class="gruppe">
+      <h3>🔍 Data Science & AI</h3>
+      <p>Analyse großer Datenmengen und erklärbare KI</p>
+    </a>
+    <a href="#" class="gruppe">
+      <h3>🧑‍🏫 Human-AI Interaction</h3>
+      <p>Forschung zu Vertrauen und Zusammenarbeit zwischen Mensch & KI</p>
+    </a>
+    <a href="#" class="gruppe">
+      <h3>🌍 Applied AI Systems</h3>
+      <p>KI-Anwendungen in Medizin, Bildung und Nachhaltigkeit</p>
+    </a>
+  </div>
+</section>
+
+<style>
+.lehrstuhl-layout {
+  font-family: system-ui, sans-serif;
+  color: #222;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* --- Layout: Text links, Bild rechts --- */
+.intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.intro-text h1 {
+  color: #003366;
+  margin-bottom: 1rem;
+  font-size: 1.9rem;
+}
+.intro-text p {
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #444;
+}
+
+/* --- Professor-Profil --- */
+.prof-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  background: #f7f9fb;
+  border-radius: 10px;
+  padding: 15px 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+.prof-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.prof-info h2 {
+  margin: 0;
+  color: #003366;
+  font-size: 1.1rem;
+}
+.prof-info p {
+  margin: 2px 0 5px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+.social-links a {
+  text-decoration: none;
+  color: #003366;
+  font-size: 1.2rem;
+  margin-right: 8px;
+  transition: color 0.2s;
+}
+.social-links a:hover { color: #0073e6; }
+
+/* --- Bild rechts --- */
+.intro-image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* --- Forschungsgruppen-Module --- */
+.gruppen-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+.gruppe {
+  display: block;
+  background: #f6f9fc;
+  border-radius: 12px;
+  padding: 20px;
+  text-decoration: none;
+  color: #222;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: all 0.2s ease;
+}
+.gruppe:hover {
+  background: #e9f2ff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.gruppe h3 {
+  color: #003366;
+  margin-bottom: 0.4rem;
+  font-size: 1.1rem;
+}
+.gruppe p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* --- Responsive Ansicht --- */
+@media (max-width: 900px) {
+  .intro-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .prof-card { justify-content: center; }
+}
+</style>
